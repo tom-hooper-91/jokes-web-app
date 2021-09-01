@@ -12,5 +12,6 @@ namespace JokesWebApp.Data
             : base(options)
         {
         }
+        public DbSet<Joke> Joke { get; set; }
     }
 }
